@@ -1,0 +1,25 @@
+<!--Praktikum 5.2-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kegiatan 2 - Perhitungan Gaji</title>
+    </head>
+    <body>
+        <h1>Perhitungan Gaji</h1>
+
+        <form method="POST" action="p0502_hitungGaji.php">
+            <b>Nama Pegawai :</b> <input type="text" name="namaPegawai"><br><br>
+            <b>Jabatan :</b> <select name="jabatan">
+                <option>Pilih Jabatan</option>
+                <option value="programmerJr">Junior Programmer</option>
+                <option value="programmerSr">Senior Programmer</option>
+                <option value="CTO">Chief Technology Officer</option>
+                <option value="manager">Manager</option>
+            </select><br><br>
+            <b>Kinerja :</b> <input type="text" name="kinerja" placeholder="masukkan skor kinerja"><br><br>
+            <br>
+            <input type="submit" name="submit" value="Hitung Gaji">
+        </form>
+    </body>
+</html>
